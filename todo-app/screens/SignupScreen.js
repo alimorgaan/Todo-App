@@ -17,7 +17,7 @@ const SignupScreen = () => {
     const navigator = useNavigation();
 
 
-    const signupHandler = async ({ setToken }) => {
+    const signupHandler = async () => {
         Keyboard.dismiss();
 
 
